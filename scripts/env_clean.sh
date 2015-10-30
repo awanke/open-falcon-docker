@@ -6,7 +6,7 @@ rm $WORKDIR/*.tar.gz
 rm $WORKDIR/fe/*.tar.gz
 rm $WORKDIR/tmp/*
 
-apt-get -y clean
+#apt-get -y clean
 rm -rf /var/lib/apt/lists/*
 rm -rf /tmp/*
 rm -rf /var/tmp/*
